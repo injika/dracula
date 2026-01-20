@@ -1,0 +1,27 @@
+@import "variables";
+@import "responsive";
+@import "footer";
+
+h1 {
+
+  color: $color1;
+  background-color: $color1-dark;
+
+}
+
+h2 {
+  color: $color1-dark;
+  background: $color1-dark;
+  background-color: $color1-light;
+
+}
+
+a {
+  color: $color1-light;
+
+  &:hover, &:visited {
+
+   color: $coloe1;
+  } 
+}
+

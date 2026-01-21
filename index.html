@@ -7,7 +7,20 @@
   <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-  <header>  <h1>Hello world !</h1>
+  <header>  
+    <form action="resultats.html" method="get" role="search">
+      <label for="q" class="sr-only"></label>
+      <input 
+          type="search" 
+          id="q" 
+          name="q" 
+          placeholder="Rechercher..." 
+          aria-label="Rechercher"
+          required
+      >
+      <button type="submit">🔍</button>
+  </form>
+    <h1>Hello world !</h1>
     <h2>Yoyo</h2>
     <p>Lorem ipsum dolor sit amet.</p>
   </header>

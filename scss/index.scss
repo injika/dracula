@@ -1,11 +1,15 @@
 @import "variables";
 @import "responsive";
 @import "footer";
+@import "mixins"
 
 h1 {
 
   color: $color1;
   background-color: $color1-dark;
+  @include respond-min($breackpoins-sm){
+    background-color: green;
+  }
 
 }
 
